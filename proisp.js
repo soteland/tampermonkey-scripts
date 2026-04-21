@@ -17,6 +17,7 @@
         console.log("client_list found:", select);
         if (select) {
             select.setAttribute('multiple', 'multiple');
+            select.setAttribute('size', '50');
             console.log("multiple applied!");
             return true;
         }
